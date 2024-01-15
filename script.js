@@ -155,22 +155,22 @@ var searchData = {
       ],
       Website: [
           { title: 'Recommended Website 1', url: 'https://ads.google.com/intl/en_in/start/overview-ha/' },
-          { title: 'Recommended Website 2', url: '#' },
+          { title: 'Recommended Website 2', url: 'https://dribbble.com/tags/marketing_website' },
           // Add more website results as needed
       ],
       courses: [
-          { title: 'Recommended Courses 1', url: '#' },
-          { title: 'Recommended Courses 2', url: '#' },
+          { title: 'Recommended Courses 1', url: 'https://www.udemy.com/course/marketing-research-for-profit/' },
+          { title: 'Recommended Courses 2', url: 'https://www.udemy.com/course/instagram-marketing-for-small-businesses/' },
           // Add more course results as needed
       ],
       interviewQuestions: [
-          { title: 'Recommended InterviewQuestions 1', url: '#' },
-          { title: 'Recommended InterviewQuestions 2', url: '#' },
+          { title: 'Recommended InterviewQuestions 1', url: 'https://www.coursera.org/articles/marketing-interview-questions' },
+          { title: 'Recommended InterviewQuestions 2', url: 'https://www.indeed.com/career-advice/interviewing/marketing-interview-questions' },
           // Add more interview question results as needed
       ],
       qna: [
-          { title: 'Recommended QnA 1', url: '#' },
-          { title: 'Recommended QnA 2', url: '#' },
+          { title: 'Recommended QnA 1', url: 'https://www.usertesting.com/blog/marketing-questions-to-ask-and-test' },
+          { title: 'Recommended QnA 2', url: 'https://www.ama.org/pages/commonly-asked-marketing-questions/' },
           // Add more Q&A results as needed
       ],
   },
