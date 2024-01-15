@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: url('Images/Review.jpg'); /* Replace with the correct image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fixed background to prevent scrolling */
+    height: 100vh;
+}
+
+
+form {
+    width: 60%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333; /* Adjusted label color */
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px; /* Slightly increased padding for better appearance */
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 12px 20px; /* Adjusted padding for better button appearance */
+    font-size: 18px; /* Increased font size for better visibility */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+form button:hover {
+    background-color: #27ae60; /* Darker green on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#reviewsSection {
+    margin-top: 20px;
+    width: 60%;
+    max-width: 400px;
+}
+
+#reviewsSection h2 {
+    color: #2c3e50;
+}
+
+#reviewsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#reviewsList li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Slightly increased border radius for a smoother look */
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#reviewsList li:hover {
+    transform: translateY(-5px); /* Lift the review on hover */
+}
+/* Existing styles remain unchanged */
+
+/* Added styles for the footer */
+footer {
+    background-color: #2c3e50; /* Adjusted color to match the header */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Added styles for the main content */
+main {
+    padding-bottom: 60px; /* Adjusted padding to avoid overlapping with footer */
+}

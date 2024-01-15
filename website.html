@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+    <header>
+        <!-- Logo space in the top left corner -->
+        <div class="logo-container">
+
+            <img src="Images/Logo.png" alt="Your Logo">
+        </div>
+       
+        <div class="search-container">
+            <form onsubmit="event.preventDefault(); showMockResults(document.getElementById('searchInput').value)">
+                <input type="text" id="searchInput" placeholder="Enter your query...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <div id="resultsContainer" class="results"></div>
+        <div class="nav-links">
+            <a href="review.html" id="reviewButton">Click here to give a review</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="videos">
+            <h2>Videos</h2>
+            <div class="results" id="videoResults"></div>
+        </section>
+
+        <section id="books">
+            <h2>Books</h2>
+            <div class="results" id="bookResults"></div>
+        </section>
+
+        <section id="articles">
+            <h2>Articles</h2>
+            <div class="results" id="articleResults"></div>
+        </section>
+
+        <section id="blogs">
+            <h2>Blogs</h2>
+            <div class="results" id="blogResults"></div>
+        </section>
+
+        <section id="studyMaterial">
+            <h2>Study Material</h2>
+            <div class="results" id="studyMaterialResults"></div>
+        </section>
+
+        <section id="website">
+            <h2>Website</h2>
+            <div class="results" id="WebsiteResults"></div>
+        </section>
+
+        <section id="courses">
+            <h2>Courses</h2>
+            <div class="results" id="courseResults"></div>
+        </section>
+
+        <section id="interviewQuestions">
+            <h2>Interview Questions</h2>
+            <div class="results" id="interviewResults"></div>
+        </section>
+
+        <section id="qna">
+            <h2>Q&A</h2>
+            <div class="results" id="qnaResults"></div>
+        </section>
+        
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
